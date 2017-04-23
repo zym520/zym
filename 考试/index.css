@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 1000px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.top {
+  width: 1000px;
+  height: 394px;
+  background: url(./img/iPhone.png) no-repeat 0px 0px;
+  background-size: contain;
+  position: relative;
+}
+.top .ama {
+  font-size: 35px;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 206px;
+}
+.top .ama a {
+  font-size: 13px;
+  margin-left: 21px;
+  position: relative;
+  float: left;
+  top: -51px;
+  width: 48px;
+  height: 58px;
+  line-height: 70px;
+  border-top: 2px solid #75B42B;
+}
+.top .ama a:hover {
+  border-top: 2px solid #fff;
+}
+.top .cap {
+  text-align: center;
+  position: relative;
+  top: 130px;
+  font-size: 45px;
+  color: #fff;
+  line-height: 80px;
+}
+.top .cap .diankuang {
+  width: 50px;
+  height: 30px;
+  margin-left: 487px;
+  margin-top: 55px;
+}
+.top .cap .dian {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  float: left;
+  margin-left: 5px;
+}
+.top .cap .dian:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.why {
+  height: 348px;
+}
+
+.yuanquan {
+  margin-left: 230px;
+  font-size: 8px;
+  padding-top: 53px;
+}
+
+.yuqnaun1 {
+  width: 124px;
+  height: 250px;
+  float: left;
+}
+.yuqnaun1 img {
+  margin: 56px 5px;
+}
+.yuqnaun1 span {
+  position: relative;
+  top: -50px;
+}
+
+.yuqnaun2 {
+  width: 124px;
+  height: 250px;
+  float: left;
+  margin-left: 79px;
+}
+.yuqnaun2 .span {
+  font-size: 24px;
+  margin-left: 8px;
+}
+.yuqnaun2 img {
+  margin: 27px 5px;
+}
+.yuqnaun2 .aa {
+  position: relative;
+  top: -20px;
+}
+
+.yuqnaun3 {
+  width: 124px;
+  height: 250px;
+  float: left;
+  margin-left: 70px;
+}
+.yuqnaun3 img {
+  margin: 56px 5px;
+}
+.yuqnaun3 span {
+  position: relative;
+  top: -50px;
+}
+
+.disan {
+  height: 368px;
+  width: 1000px;
+  background: #262626;
+  background: url(./img/iPhone1.png) no-repeat;
+  background-size: 1000px;
+}
+.disan .ziti {
+  width: 250px;
+  height: 180px;
+  float: right;
+  margin: 91.5px 250px;
+  line-height: 20px;
+  color: #fff;
+}
+.disan .ziti h3 {
+  font-size: 24px;
+}
+.disan .ziti .ma {
+  margin-top: 10px;
+}
+.disan .ziti .ma ul {
+  font-size: 9px;
+}
+.disan .ziti .zfx {
+  margin-top: 23px;
+  width: 85px;
+  height: 46px;
+  background: #75B42B;
+  content: '';
+  border-radius: 8%;
+  position: relative;
+}
+.disan .ziti .zfx:after {
+  position: absolute;
+  content: '';
+  top: 15px;
+  left: 36px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-left: 20px solid #fff;
+  border-bottom: 8px solid transparent;
+}
+.disan .ziti .eu {
+  float: right;
+  line-height: 13px;
+  margin-top: -50px;
+}
+.disan .ziti .eu ul {
+  font-size: 9px;
+}
+.disan .ziti .dian {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.disan .ziti .dian:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.disi {
+  background: url(./img/photo-share_20.png) no-repeat;
+  height: 400px;
+  width: 1000px;
+  color: #fff;
+}
+.disi .ziti {
+  width: 250px;
+  height: 225px;
+  float: left;
+  margin: 92px 250px;
+  line-height: 20px;
+  color: #fff;
+}
+.disi h3 {
+  font-size: 24px;
+}
+.disi .ma {
+  margin-top: 10px;
+}
+.disi .ma ul {
+  font-size: 9px;
+}
+.disi .lazk {
+  width: 235px;
+  height: 116px;
+  background: #fff;
+  margin-top: 30px;
+}
+.disi .lazk img {
+  position: relative;
+  top: 26px;
+  left: 15px;
+}
+.disi .lazk .lzziti {
+  position: relative;
+  width: 130px;
+  height: 61px;
+  top: -30px;
+  left: 75px;
+}
+.disi .lazk .lzziti h3 {
+  font-size: 9px;
+  color: #75B42B;
+}
+.disi .lazk .lzziti ul {
+  font-size: 9px;
+  color: #666;
+  line-height: 12px;
+}
+.disi .lazk .lvkuang {
+  height: 21px;
+  background: #75B42B;
+}
+.disi .lazk .lvkuang .dian {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  float: left;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+.disi .lazk .lvkuang .dian:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.diwu {
+  height: 412px;
+}
+.diwu .zitik {
+  width: 218px;
+  height: 73px;
+  position: relative;
+  top: 35px;
+  left: 253px;
+}
+.diwu .zitik h3 {
+  font-size: 14px;
+  color: #75B42B;
+  position: relative;
+  top: -10px;
+}
+.diwu .zitik ul {
+  font-size: 9px;
+  color: #666;
+  line-height: 4px;
+  padding-top: 9px;
+}
+.diwu .siliantu {
+  background: #000;
+  margin-top: 80px;
+}
+.diwu .siliantu .diyit {
+  background: url(./img/photo-share_200.png) no-repeat 0 0;
+  width: 250px;
+  height: 260px;
+  float: left;
+}
+.diwu .siliantu .diert {
+  background: url(./img/photo-share_21.png) no-repeat 0 0;
+  float: left;
+  width: 250px;
+  height: 260px;
+}
+.diwu .siliantu .disant {
+  background: url(./img/photo-share_18.png) no-repeat 0 0;
+  float: left;
+  width: 250px;
+  height: 260px;
+}
+.diwu .siliantu .disit {
+  background: url(./img/photo-share_22.png) no-repeat 0 0;
+  float: left;
+  width: 250px;
+  height: 260px;
+}
