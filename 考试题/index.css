@@ -278,6 +278,7 @@
 .diwu .siliantu {
   background: #000;
   margin-top: 80px;
+  position: relative;
 }
 .diwu .siliantu .diyit {
   background: url(./img/photo-share_200.png) no-repeat 0 0;
@@ -302,4 +303,24 @@
   float: left;
   width: 250px;
   height: 260px;
+}
+.diwu .siliantu .diyit:hover,
+.diwu .siliantu .diert:hover,
+.diwu .siliantu .disant:hover,
+.diwu .siliantu .disit:hover {
+  margin-top: -25px;
+}
+.diwu .siliantu .diyit:hover::after,
+.diwu .siliantu .diert:hover::after,
+.diwu .siliantu .disant:hover::after,
+.diwu .siliantu .disit:hover::after {
+  content: '';
+  position: absolute;
+  float: left;
+  width: 250px;
+  height: 25px;
+  margin-top: 260px;
+  background: url(./img/photo-share_03.png) no-repeat;
+  background-size: cover;
+  background-position-y: -8px;
 }

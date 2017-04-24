@@ -317,6 +317,7 @@
     .siliantu{
         background: #000;
         margin-top: 80px;
+        position: relative;
         
         .diyit{
             background: url(./img/photo-share_200.png) no-repeat 0 0;
@@ -337,16 +338,32 @@
             width: 250px;
             height: 260px;  
         }
-         .disit{
+        .disit{
             background: url(./img/photo-share_22.png) no-repeat 0 0;
             float: left;
             width: 250px;
             height: 260px;  
         }
-        
-        .diyit::hover{
-            
-            
+        .diyit:hover,
+        .diert:hover,
+        .disant:hover,
+        .disit:hover{
+           margin-top:-25px;
+           
+           &::after{
+              content: '';
+              position: absolute;
+                float: left;
+                width:250px;
+                height:25px;
+                margin-top: 260px;
+                background:url(./img/photo-share_03.png) no-repeat;
+                background-size:cover;
+                background-position-y:-8px ;
+           }
+           
+           
         }
+       
     }
 }
