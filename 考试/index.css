@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  width: 100%;
+  height: 787px;
+  background: url(./img/iPhoner.png) no-repeat center center;
+  background-size: cover;
+}
+.top .top-ziti {
+  width: 100%;
+}
+.top .top-ziti .ama {
+  font-size: 60px;
+  color: #fff;
+  margin-left: 250px;
+}
+.top .top-ziti .hello {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 18px;
+  width: 760px;
+  float: right;
+  color: #fff;
+}
+.top .top-ziti .hello a {
+  position: relative;
+  float: left;
+  left: -70px;
+  margin-left: 30px;
+  border-top: 3px solid #75B42B;
+  height: 80px;
+  line-height: 80px;
+}
+.top .top-ziti .hello a:hover {
+  border-top: 3px solid #fff;
+  cursor: pointer;
+}
+.top .cap {
+  text-align: center;
+  position: absolute;
+  top: 230px;
+  font-size: 75px;
+  color: #fff;
+  line-height: 180px;
+}
+.top .cap .aaa {
+  position: relative;
+  left: 370px;
+}
+.top .cap .img {
+  position: relative;
+  left: 370px;
+}
+.top .cap .diankuang {
+  position: relative;
+  left: 680px;
+  top: 100px;
+}
+.top .cap .dian {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  float: left;
+  margin-left: 5px;
+}
+.top .cap .dian:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.why {
+  height: 695px;
+}
+
+.yuanquan {
+  width: 1055px;
+  height: 470px;
+  position: relative;
+  top: 110px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.yuqnaun1 {
+  width: 250px;
+  height: 100%;
+  float: left;
+}
+.yuqnaun1 img {
+  margin: 104px 10px;
+}
+.yuqnaun1 span {
+  position: relative;
+  top: -50px;
+}
+
+.yuqnaun2 {
+  width: 250px;
+  height: 100%;
+  float: left;
+  margin-left: 140px;
+}
+.yuqnaun2 .span {
+  font-size: 48px;
+  margin-left: 10px;
+}
+.yuqnaun2 img {
+  margin: 45px 10px;
+}
+
+.yuqnaun3 {
+  width: 250px;
+  height: 100%;
+  float: left;
+  margin-left: 140px;
+}
+.yuqnaun3 img {
+  margin: 104px 10px;
+}
+.yuqnaun3 span {
+  position: relative;
+  top: -55px;
+}
+
+.disan {
+  width: 100%;
+  height: 734px;
+  background: url(./img/photo-share_07.jpg) no-repeat center center;
+  background-size: cover;
+}
+.disan .ziti {
+  width: 434px;
+  height: 351px;
+  float: right;
+  margin: 190px 160px;
+  line-height: 20px;
+  color: #fff;
+}
+.disan .ziti h3 {
+  margin-top: 20px;
+  font-size: 48px;
+}
+.disan .ziti .ma {
+  margin-top: 35px;
+}
+.disan .ziti .ma p {
+  font-size: 18px;
+}
+.disan .ziti .zfx {
+  margin-top: 35px;
+  width: 170px;
+  height: 93px;
+  background: #75B42B;
+  content: '';
+  border-radius: 6%;
+  position: relative;
+}
+.disan .ziti .zfx:after {
+  position: absolute;
+  content: '';
+  top: 30px;
+  left: 70px;
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-left: 35px solid #fff;
+  border-bottom: 18px solid transparent;
+}
+.disan .ziti .eu {
+  float: right;
+  line-height: 25px;
+  margin-top: -100px;
+}
+.disan .ziti .eu ul {
+  font-size: 18px;
+}
+.disan .ziti .dian {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  float: left;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+.disan .ziti .dian:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.disi {
+  background: url(./img/photo-share_20.png) no-repeat center center;
+  height: 734px;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+}
+.disi .ziti {
+  width: 400px;
+  height: 420px;
+  float: left;
+  margin: 175px 260px;
+  color: #fff;
+}
+.disi h3 {
+  font-size: 40px;
+}
+.disi .ma {
+  margin-top: 30px;
+}
+.disi .ma ul {
+  font-size: 18px;
+}
+.disi .lazk {
+  height: 200px;
+  background: #fff;
+  margin-top: 40px;
+}
+.disi .lazk img {
+  position: relative;
+  top: 42px;
+  left: 30px;
+}
+.disi .lazk .lzziti {
+  position: relative;
+  top: -60px;
+  left: 150px;
+}
+.disi .lazk .lzziti h3 {
+  font-size: 18px;
+  color: #75B42B;
+}
+.disi .lazk .lzziti ul {
+  position: relative;
+  top: 12px;
+  font-size: 16px;
+  color: #666;
+  line-height: 26px;
+}
+.disi .lazk .lvkuang {
+  height: 42px;
+  background: #75B42B;
+  margin-top: -30px;
+}
+.disi .lazk .lvkuang .dian {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  float: left;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.disi .lazk .lvkuang .dian:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.diwu {
+  height: 822px;
+}
+.diwu .zitik {
+  width: 436px;
+  height: 136px;
+  position: relative;
+  top: 70px;
+  left: 253px;
+}
+.diwu .zitik h3 {
+  font-size: 48px;
+  color: #75B42B;
+  position: absolute;
+  top: -10px;
+}
+.diwu .zitik ul {
+  position: relative;
+  top: 28px;
+  font-size: 18px;
+  color: #666;
+  line-height: 25px;
+}
+.diwu .siliantu {
+  position: relative;
+  top: 168px;
+  height: 518px;
+}
+.diwu .siliantu .diyit {
+  width: 25%;
+  height: 518px;
+  float: left;
+  background: url(img/photo-share_200.png) no-repeat -30px 0;
+}
+.diwu .siliantu .diert {
+  width: 25%;
+  height: 518px;
+  float: left;
+  background: url(img/photo-share_21.png) no-repeat 0 0;
+}
+.diwu .siliantu .disant {
+  width: 25%;
+  height: 518px;
+  float: left;
+  background: url(img/photo-share_18.png) no-repeat 0 0;
+}
+.diwu .siliantu .disit {
+  width: 25%;
+  height: 518px;
+  float: left;
+  background: url(img/photo-share_22.png) no-repeat 0 0;
+}
+.diwu .siliantu .diyit:hover,
+.diwu .siliantu .diert:hover,
+.diwu .siliantu .disant:hover,
+.diwu .siliantu .disit:hover {
+  margin-top: -45px;
+}
+.diwu .siliantu .diyit:hover::after,
+.diwu .siliantu .diert:hover::after,
+.diwu .siliantu .disant:hover::after,
+.diwu .siliantu .disit:hover::after {
+  content: '';
+  float: left;
+  width: 341px;
+  height: 48px;
+  margin-top: 515px;
+  background: url(./img/photo-share_03.png) no-repeat 0 0;
+  background-size: cover;
+}
+
+.diliu {
+  width: 100%;
+  background: #75B42B;
+  height: 722px;
+}
+.diliu .neirou {
+  width: 950px;
+  height: 334px;
+  margin: 0 auto;
+  padding-top: 168px;
+}
+.diliu .neirou img {
+  margin-top: 50px;
+}
+.diliu .neirou .ziti {
+  width: 544px;
+  height: 100%;
+  float: right;
+  font-size: 48px;
+  color: #fff;
+}
+.diliu .neirou .ziti .new {
+  font-size: 24px;
+}
+
+.diqi {
+  height: 444px;
+  width: 100%;
+  background: #e7e7e7;
+}
+.diqi .neirou {
+  margin: 0 auto;
+  width: 970px;
+  height: 250px;
+  position: relative;
+  top: 80px;
+}
+.diqi .neirou h3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  border-bottom: 2px solid #cbcbcb;
+}
+.diqi .neirou .ziti {
+  height: 190px;
+  width: 98%;
+  font-size: 16px;
+  color: #666;
+}
+.diqi .neirou .ziti .ios {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.diqi .neirou .ziti .and {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.diba {
+  height: 225px;
+  width: 100%;
+}
+.diba .all {
+  position: relative;
+  top: 95px;
+  left: 200px;
+  font-size: 18px;
+  color: #666;
+}
+.diba .anniu {
+  width: 424px;
+  height: 82px;
+  float: right;
+  margin-top: 64px;
+  margin-right: 220px;
+  font-size: 18px;
+  color: #666666;
+}
+.diba .anniu input {
+  margin-top: 15px;
+  width: 300px;
+  height: 40px;
+}
+.diba .anniu button {
+  width: 105px;
+  height: 45px;
+  background: #75B42B;
+  border-radius: 8%;
+  border: 0;
+  cursor: pointer;
+}
